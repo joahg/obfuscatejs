@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = "obfuscatejs"
   s.version     = Obfuscatejs::VERSION
   s.authors     = ["Joah Gerstenberg"]
-  s.email       = ["joahd@gbergfamily.com"]
+  s.email       = ["me@joahg.com"]
   s.homepage    = "https://github.com/JoahG/obfuscatejs"
   s.summary     = "Simple Rails plugin to obfuscate strings in views."
   s.description = "Simple Rails plugin to obfuscate strings in views."
