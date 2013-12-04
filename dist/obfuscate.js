@@ -1,7 +1,7 @@
 (function() {
 	unObfuscate = function() {
 		$.each($('[data-obfuscated]'), function(i,v) {
-	        $(v).text(decodeURIComponent($(v).attr('data-obfuscated')));
+			$(v).text(decodeURIComponent($(v).attr('data-obfuscated')));
 		});
 		$.each($('[data-obfuscated-email]'), function(i,v) {
 			ema = decodeURIComponent($(v).attr('data-obfuscated-email'));
