@@ -33,17 +33,24 @@ Obfuscatejs also makes special provisions for email addresses. Use the `obfuscat
 	# Outputs <a href='mailto:yourname@domain.com'>yourname@domain.com</a>
 ```
 
+You are also able to provide a custom message in lieu of the email being the link text:
+
+```
+	<%= obfuscate_email 'yourname@domain.com', 'email me' %>
+	# Outputs <a href='mailto:yourname@domain.com'>email me</a>
+```
+
 Obfuscatejs also has support for subject and body fields in an email link:
 
 ```
-	<%= obfuscate_email 'yourname@domain.com', 'my subject' %>
-	# Outputs <a href="mailto:yourname@domain.com?subject=my%20subject">yourname@domain.com</a>
+	<%= obfuscate_email 'yourname@domain.com', 'email me', 'my subject' %>
+	# Outputs <a href="mailto:yourname@domain.com?subject=my%20subject">email me</a>
 
-	<%= obfuscate_email 'yourname@domain.com', 'my subject', 'my body' %>
-	# Outputs <a href="mailto:yourname@domain.com?subject=my%20subject&body=my%20body">yourname@domain.com</a>
+	<%= obfuscate_email 'yourname@domain.com', 'email me', 'my subject', 'my body' %>
+	# Outputs <a href="mailto:yourname@domain.com?subject=my%20subject&body=my%20body">email me</a>
 
-	<%= obfuscate_email 'yourname@domain.com', '', 'my body' %>
-	# Outputs <a href="mailto:yourname@domain.com?body=my%20body">yourname@domain.com</a>
+	<%= obfuscate_email 'yourname@domain.com', 'email me', '', 'my body' %>
+	# Outputs <a href="mailto:yourname@domain.com?body=my%20body">email me</a>
 ```
 
 ##How it works

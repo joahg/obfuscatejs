@@ -7,8 +7,8 @@ module Obfuscatejs
 		def obfuscate(str)
 			raw "<span data-obfuscated='#{encode(str)}'></span>"
 		end
-		def obfuscate_email(ema, sub='', bod='')
-			raw "<a data-obfuscated-email='#{encode(ema)}' data-obfuscated-subject='#{encode(sub)}' data-obfuscated-body='#{encode(bod)}'></a>"
+		def obfuscate_email(ema, msg='', sub='', bod='')
+			raw "<a data-obfuscated-email='#{encode(ema)}' data-obfuscated-message='#{encode(msg)}' data-obfuscated-subject='#{encode(sub)}' data-obfuscated-body='#{encode(bod)}'></a>"
 		end
 	end
 end
