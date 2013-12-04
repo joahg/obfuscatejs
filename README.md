@@ -24,7 +24,7 @@ To use in a view:
 	<%= obfuscate 'hello world' %>
 ```
 
-Obfuscatejs obfuscates strings using Hex encryption so webcrawlers are unable to recognize the text. Great for Email addresses:
+Obfuscatejs obfuscates strings using Hex encryption so webcrawlers are unable to recognize the text. Great for email addresses:
 
 ```
 	<%= obfuscate 'yourname@domain.com' %>
@@ -38,10 +38,10 @@ Obfuscatejs translates your text to Hex in the backend, then puts a `<span data-
 
 If you find a bug, or would like to help out with development, just follow some simple steps:
 
-	1. [Make an issue.](https://github.com/JoahG/obfuscatejs/issues/new)
-	2. [Fork the repo.](https://github.com/JoahG/obfuscatejs/fork)
-	3. Make your changes.
-	4. Commit and create a pull request.
+  1. [Make an issue.](https://github.com/JoahG/obfuscatejs/issues/new)
+  2. [Fork the repo.](https://github.com/JoahG/obfuscatejs/fork)
+  3. Make your changes.
+  4. Commit and create a pull request.
 
 ##Author
 
