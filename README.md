@@ -24,10 +24,26 @@ To use in a view:
 	<%= obfuscate 'hello world' %>
 ```
 
-Obfuscatejs obfuscates strings using Hex encryption so webcrawlers are unable to recognize the text. Great for email addresses:
+Obfuscatejs obfuscates strings using Hex encryption so webcrawlers are unable to recognize the text. 
+
+Obfuscatejs also makes special provisions for email addresses. Use the `obfuscate_email` helper to automatically generate a `<a href='mailto:your_email'>your_email</a>` in your view. Usage is as follows:
 
 ```
-	<%= obfuscate 'yourname@domain.com' %>
+	<%= obfuscate_email 'yourname@domain.com' %>
+	# Outputs <a href='mailto:yourname@domain.com'>yourname@domain.com</a>
+```
+
+Obfuscatejs also has support for subject and body fields in an email link:
+
+```
+	<%= obfuscate_email 'yourname@domain.com', 'my subject' %>
+	# Outputs <a href="mailto:yourname@domain.com?subject=my%20subject">yourname@domain.com</a>
+
+	<%= obfuscate_email 'yourname@domain.com', 'my subject', 'my body' %>
+	# Outputs <a href="mailto:yourname@domain.com?subject=my%20subject&body=my%20body">yourname@domain.com</a>
+
+	<%= obfuscate_email 'yourname@domain.com', '', 'my body' %>
+	# Outputs <a href="mailto:yourname@domain.com?body=my%20body">yourname@domain.com</a>
 ```
 
 ##How it works
