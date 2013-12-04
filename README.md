@@ -1,4 +1,4 @@
-#obfuscatejs
+#obfuscatejs [![Gem Version](https://badge.fury.io/rb/obfuscatejs.png)](http://badge.fury.io/rb/obfuscatejs)
 
 Rails gem for backend string obfuscation. Obfuscate any string using the simple `obfuscate` view helper in Rails.
 
