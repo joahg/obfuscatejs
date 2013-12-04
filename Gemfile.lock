@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    obfuscatejs (0.9)
+    obfuscatejs (1.0)
       jquery-rails
       rails (~> 3.2.11)
 
