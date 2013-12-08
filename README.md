@@ -68,4 +68,4 @@ If you find a bug, or would like to help out with development, just follow some 
 
 ##Author
 
-Obfuscatejs is written and maintained by [Joah Gerstenberg](http://www.joahg.com), copyright 2013.
+Obfuscatejs is written and maintained by [Joah Gerstenberg](http://www.joahg.com), copyright 2013. All code contained within these files are licensed under an [MIT license](https://github.com/JoahG/obfuscatejs/blob/master/MIT-LICENSE).
