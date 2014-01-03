@@ -1,6 +1,6 @@
 /*!
- * Obfuscatejs v1.1.4 (https://github.com/JoahG/obfuscatejs)
- * Copyright 2013 Joah Gerstenberg
+ * Obfuscatejs v1.1.3 (https://github.com/JoahG/obfuscatejs)
+ * Copyright 2014 Joah Gerstenberg
  * Licensed under MIT License (https://github.com/JoahG/obfuscatejs/blob/master/MIT-LICENSE)
  */
 
