@@ -71,3 +71,4 @@ If you find a bug, or would like to help out with development, just follow some 
 Obfuscatejs is written and maintained by [Joah Gerstenberg](http://www.joahg.com), copyright 2014. All code contained within these files are licensed under an [MIT license](https://github.com/JoahG/obfuscatejs/blob/master/MIT-LICENSE).
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JoahG/obfuscatejs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+![](https://ga-beacon.appspot.com/UA-45765973-7/obfuscatejs/home?pixel)
